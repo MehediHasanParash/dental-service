@@ -1,0 +1,13 @@
+@media (max-width: 575.98px) {
+    .servis{
+        margin-top: 300px;
+    }
+    .text-service>h5{
+        /* text-align: center; */
+        margin-left: 0px !important;
+    }
+    .text-service>button{
+        /* text-align: center; */
+        margin-left: 0px !important;
+    }
+}

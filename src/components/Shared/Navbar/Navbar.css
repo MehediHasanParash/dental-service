@@ -1,0 +1,26 @@
+.navbar{
+    background-color: none !important;
+}
+.nav-item:hover{
+    /* border: 2px solid ; */
+    outline: none;
+    background-color: rgb(231, 230, 230);
+    border-radius: 5px;
+}
+.nav-item{
+    font-size:18px;
+    font-weight: bold;
+    /* border: 2px solid #1cc7c1; */
+}
+.nav-item.active{
+    border: 2px solid #1cc7c1;
+    border-radius: 5px;
+}
+@media (max-width: 575.98px) {
+    .navbar{
+        width: 100%;
+    }
+    .alignment{
+        text-align: center;
+    }
+}

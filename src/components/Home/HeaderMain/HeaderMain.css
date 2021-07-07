@@ -1,0 +1,17 @@
+@media (max-width: 575.98px) {
+    .container{
+        max-width: 100%;
+    }
+   
+    h1{        
+        text-align: center;
+        /* margin-top: 100px; */
+    } 
+    p{
+        color: rgba(0, 4, 7, 0.479);
+        text-align: center;
+    }
+    .button{
+        margin-left: 30%;
+    }
+}

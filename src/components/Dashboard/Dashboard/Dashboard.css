@@ -1,0 +1,9 @@
+.calenderAppointment{
+    display: flex;
+}
+
+@media (max-width: 575.98px) {
+    .calenderAppointment{
+        display: block;
+    }
+}

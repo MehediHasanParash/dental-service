@@ -1,0 +1,22 @@
+.book{
+    /* margin-top: 180px; */
+    width: 97%;
+}
+.cardBook{
+    margin-left: 12px;
+}
+h2{
+    margin-bottom: 100px;
+}
+@media (max-width: 575.98px) {
+    h2{
+        margin-left: 0px!important;
+    }
+    .book{
+        margin-top: 110px;
+        width: 97%;
+    }
+    .cardBook{
+        margin-left: 4px;
+    }
+}
