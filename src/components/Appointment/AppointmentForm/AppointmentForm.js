@@ -27,7 +27,7 @@ const AppointmentForm = ({ modalIsOpen, closeModal, appointmentOn, date }) => {
         
         // https://salty-plateau-71286.herokuapp.com/
 
-        fetch('http://localhost:5000/addAppointment', {
+        fetch('https://boiling-hamlet-31157.herokuapp.com/addAppointment', {
             method: 'POST',
             headers: { 'content-type': 'application/json' },
             body: JSON.stringify(data)

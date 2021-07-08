@@ -6,7 +6,7 @@ import './AppointmentsByDate.css'
 const AppointmentsByDate = ({ appointments }) => {
     console.log(appointments);
     return (
-        <div>
+        <div className="appointments">
             <h2 className="text-brand text-center">Appointments </h2>
             {
                 appointments.length ?

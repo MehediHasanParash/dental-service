@@ -13,7 +13,7 @@ const AllPatients = () => {
         setSearch(event.target.value);
     }
     useEffect(() => {
-        fetch('http://localhost:5000/appointments?search=' + search)
+        fetch('https://boiling-hamlet-31157.herokuapp.com/appointments?search=' + search)
             .then(res => res.json())
             .then(data => setAppointments(data))
     }, [search])
